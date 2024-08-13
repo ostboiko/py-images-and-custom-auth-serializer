@@ -36,7 +36,6 @@ class MovieImageSerializer(serializers.ModelSerializer):
         fields = ("id", "image")
 
 
-
 class MovieSerializer(serializers.ModelSerializer):
     class Meta:
         model = Movie
